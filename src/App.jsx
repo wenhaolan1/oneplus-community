@@ -8,8 +8,8 @@ function App() {
     <div className="App">
     <Header />
     <Suspense fallback={ <div>loading...</div>}>
-        <RoutesConfig />
-      </Suspense>
+      <RoutesConfig />
+    </Suspense>
     <Footer />
     </div>
   )

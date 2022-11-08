@@ -2,27 +2,27 @@ module.exports = {
     bannersList: [
         {
             bid: 1,
-            bpic: "https://static.oneplus.cn/data/attachment/item/100521r7h44th7tv4h4d74.jpg"
+            bpic: "https://static.oneplus.cn/data/attachment/item/101529es0s33623o0d0t3j.jpg"
         },
         {
             bid: 2,
-            bpic: "https://static.oneplus.cn/data/attachment/item/100534gmyyauqqymdgqmv8.png"
+            bpic: "https://static.oneplus.cn/data/attachment/item/141909b54dysb1fyzb11sh.jpg"
         },
         {
             bid: 3,
-            bpic: "https://static.oneplus.cn/data/attachment/item/100737pdokvsrqqkzh8drh.jpg"
+            bpic: "https://static.oneplus.cn/data/attachment/item/141923sl7hz37ep0lirlea.jpg"
         },
         {
             bid: 4,
-            bpic: "https://static.oneplus.cn/data/attachment/item/100701li8i2vzn22ye8goo.jpg"
+            bpic: "https://static.oneplus.cn/data/attachment/item/143121ipf3wxs6fzswdd3w.jpg"
         },
         {
             bid: 5,
-            bpic: "https://static.oneplus.cn/data/attachment/item/130250kn8l2ip88kq8pooa.jpg"
+            bpic: "https://static.oneplus.cn/data/attachment/item/143202vg9itgajpvrt9ti9.jpg"
         },
         {
             bid: 6,
-            bpic: "https://static.oneplus.cn/data/attachment/item/124102yl1wp7z6w1u3i868.jpg"
+            bpic: "https://static.oneplus.cn/data/attachment/item/153203msourm1cyfc7iiyv.png"
         }
     ]
 }

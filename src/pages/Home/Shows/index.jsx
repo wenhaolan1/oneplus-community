@@ -1,4 +1,5 @@
 import React from 'react'
+import { useNavigate } from 'react-router';
 import { ShowWrapper } from './style';
 
 function Show ({showlist = []}) {
@@ -10,17 +11,17 @@ function Show ({showlist = []}) {
         imgattachmentList = Object.values(items.imgattachment)
       }
       const img = imgattachmentList?.slice(0,1)
-      // const LinkTo = () => {
-      //   <a href="https://www.oneplusbbs.com/sdk/weixinjssdk.php?url=https%3A%2F%2Fwww.oneplusbbs.com%2Fthread-{item.aid}-1-mobile-2.html"></a>
-      // }
       console.log(imgattachmentList, '=========')
+      const URL_jump = "https://www.oneplusbbs.com/thread-{key}-1-mobile-2.html"
+      const handleChange = () => {
+        window.location.href=URL_jump.replace("{key}",items.tid)
+      }
       return (
-        <ul className="show-list" key={items.tid} >  
+        <ul className="show-list" key={items.tid} onClick = {handleChange}>  
           <li>
             <div className="show-subject">
               <span>{items.subject}</span>
             </div>
-            
             <div className="show-image">
               {
                 img && img.map(item => {

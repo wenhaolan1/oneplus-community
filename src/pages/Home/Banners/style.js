@@ -21,7 +21,6 @@ export const BannersWrapper = styled.div`
     justify-content: center;
     align-items: center;
     justify-content: space-around;
-    
 } 
 
 .swiper-item p{

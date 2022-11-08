@@ -1,9 +1,7 @@
 import React, { useEffect } from 'react'
 import { connect } from 'react-redux'
 import { getHomeDataAction } from '@/store/actionCreators'
-import Header from '@/components/Header'
 import Middle from '@/components/Middle'
-import Footer from '@/components/Footer'
 import Banners from './Banners'
 import Show from './Shows'
 

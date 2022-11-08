@@ -2,17 +2,16 @@ import styled from 'styled-components'
 import px2rem from '@/assets/pxTorem'
 
 export const HeaderWrapper = styled.div`
-    background-color: #e5001e;
-    width: 100%;
+    height: ${px2rem(49)};
     .header {
+        position: fixed;
+        background-color: #e5001e;
         display: flex;
         height: ${px2rem(49)};
-        position: relative;
-        width: ${px2rem(370)};
+        width: 100%;
         line-height: ${px2rem(49)};
         padding: 0 ${px2rem(10)};
         .list {
-            display: block;
             width: ${px2rem(44)};
             height: ${px2rem(44)};
             text-align: center;
